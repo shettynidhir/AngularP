@@ -1,0 +1,158 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.reg
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+.form
+{
+     margin-left: 200px; 
+     width:400px;
+    /* border: 2px solid red;  */
+    display: flex;
+    flex-direction: column;
+    background-color:whitesmoke;  
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 18px 18px ; 
+}
+#address
+{
+    height: 80px;
+    width: 200px;
+}
+#course
+{
+    height: 40px;
+    width: 130px;
+    border: none;
+}
+.elements
+{
+   padding: 10px;
+}
+
+input[type=text],input[type=number],input[type=email]
+{
+    height: 30px;
+    border: none;
+     
+}
+input[type=date]
+{
+    height: 30px;
+    border: none;
+}
+#subbtn
+{
+    width:200px;
+    height: 40px;
+    border: none;
+    background-color: green;
+    border-radius: 20px;
+    color: white;
+    font-size: large;
+}
+#subbtn:hover
+{
+    background-color:black;
+}
+.container
+{
+   
+     display: flex; 
+    
+}
+
+.clist
+{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+   
+}
+.sec
+{     
+    margin-top: 10px;
+    display: flex;
+    margin-left: 150px;
+    /* border: 2px solid red; */    
+}
+.sec1
+{
+    display: flex;
+   justify-content: center;
+   margin-top: 300px; 
+
+}
+.sec2
+{
+    position: relative;
+    animation-name: popup;
+    animation-duration: 1s;
+    /* border: 2px solid red; */
+}
+#titlebar
+{
+    display: flex;
+/*   
+    background-color:gold; */
+  
+   
+}
+.close{
+   
+  margin-left: 90px;
+    width:40px;
+    height: 30px;
+    background-color:darkblue;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    border: none;
+}
+
+.close:hover
+{
+    background-color: black;
+}
+.btn
+{
+    width:100px;
+    height: 50px;
+     border: none; 
+    background-color:darkblue;
+    border-radius: 20px;
+    color: white;
+    font-size: large;
+    margin-left: 150px;
+
+  
+}
+.btn:hover
+{
+     background-color:green; 
+}
+
+
+@keyframes popup {
+    from {
+        
+        top:200px;
+    }
+    to {
+       
+        top:0px;
+    }
+  }
+  
+  
+   
+  
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Form.css">
+    <script src="Form.js"></script>
+    <title>Document</title>
+</head>
+
+<body onload="nodisp()">
+    <div class="sec">
+        <div class="sec1">
+            <button type="button" onclick="disp()" class="btn">Click</button>
+        </div>
+
+        <div id="sec2" class="sec2">
+
+            <div class="form">
+                <div class="elements" id="titlebar">
+                    <h2 class="reg">REGISTRATION FORM</h2>
+                    <button type="button" id="close" onclick="nodisp()" class="close">X</button>
+                </div>
+
+                <div class="elements">
+                    Firstname: <input type="text" id="fname" required>
+                </div>
+                <div class="elements">
+                    Lastname: <input type="text" id="lname" required>
+                </div>
+
+                <div class="elements">
+                    City: <input type="text" id="city" required>
+                </div>
+                <div class="elements">
+                    Age: <input type="number" id="age" required>
+                </div>
+                <div class="elements">
+                    Experience: <input type="number" id="exp" required>
+                </div>
+                <div class="elements">
+                    DOB: <input type="date" id="dob" required>
+                </div>
+                <div class="elements">
+                    About you: <textarea id="address" required></textarea>
+                </div>
+                <div class="elements" id="gender">
+                    Gender: <input type="radio" name="gender">Male&emsp;
+                    <input type="radio" name="gender">Female
+                </div>
+                <div class="elements">
+                    Skills: <input type="checkbox">C++&ensp;
+                    <input type="checkbox">Java&ensp;
+                    <input type="checkbox">Python
+
+                </div>
+                <div class="elements">
+                    <input type="submit" id="subbtn" on value="Submit">
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
