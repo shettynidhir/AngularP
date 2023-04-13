@@ -1,0 +1,58 @@
+.middle
+{
+    
+    display: flex;
+    height:315px;
+    position: static;
+    background-color: rgb(24, 189, 24);
+     background-image: url("http://localhost/bgimage.jpg");
+    opacity: 0.9; 
+    background-blend-mode:overlay;
+    background-repeat:no-repeat;
+    background-size:cover; 
+    background-position-y:-300px;
+    
+    /* border: 2px solid black; */
+} 
+.maintxt
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    /* border:2px solid red; */
+}
+.subtxt
+{
+    
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+    width: 100%;
+    font-weight: bold;
+    /* border:2px solid green; */
+}
+.title
+{
+    padding: 100px;
+    text-align: center;
+    margin-left: 330px;
+    width: 50%;
+    /* border:2px solid yellow; */
+}
+.btn
+{
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.txt
+{
+    font-family: Arial, Helvetica, sans-serif;
+   padding-top: 13px;
+    font-weight: bold;
+  
+
+}

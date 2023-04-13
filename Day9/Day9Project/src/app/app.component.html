@@ -1,0 +1,9 @@
+<app-header [navlist]="navlinks.lst">
+</app-header>
+<app-middle [maintxt]="navlinks.maintxt"
+          [subtxt]="navlinks.subtxt"></app-middle>
+<div class="heading"><h2 align="center" style="margin-top: 15px;">{{title}}</h2></div>
+    
+ 
+ <app-below *ngFor="let x of mainhead;let y=index" [mhead]="x" [description]="descriptions[y]" [imgsrc]="imgsrc[y]">
+</app-below>
