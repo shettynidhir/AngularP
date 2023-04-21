@@ -1,0 +1,29 @@
+.holder
+{
+    width:800px;
+    height:150px;
+    border:2px solid black;
+    border-radius:10px ;
+    background-color:darkblue;
+    color: white;
+    font-size: large;
+    /* font-weight: bold; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-left:200px;
+    
+    
+}
+.name,.msg,.type
+{
+     /* border: 1px solid red; */
+    height: 50px;
+}
+.msg{
+    display: flex;
+    justify-content: center;
+}
+.type
+{
+    float: right;
+}
