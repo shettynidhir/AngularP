@@ -1,0 +1,27 @@
+.prod-box{
+    float: left;
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px gray;
+    margin: 30px;
+}
+
+.image-holder{
+    height: 80%;
+    width: 100%;
+}
+
+.image-holder img{
+    height: 100%;
+    width: 100%;
+}
+
+.name,.price{
+    height: 20%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}

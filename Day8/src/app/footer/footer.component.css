@@ -1,0 +1,35 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ .footer
+{
+    width: 33.3%;
+    height: 250px;
+    display: flex;  
+    float: left;
+    background-color: #3ee687;
+    position: static;
+    
+} 
+.twitter
+{
+    font-size: xx-large;
+}
+
+.section
+{
+    
+    width: 270px;
+    display: flex;
+    margin:50px 70px 70px 70px;
+   
+}
+.content, .img
+{
+   padding: 2%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

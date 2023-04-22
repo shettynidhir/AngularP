@@ -20,7 +20,6 @@ ul li
     padding: 10px;
     margin-top: 10px;
 }
-
 .heading
 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -39,64 +38,6 @@ a:hover
     background-color:#16223c;
     border-radius: 10px; 
 }
-
-.footer
-{
-    width: 100%;
-    height: 250px;
-    display: flex;  
-    background-color: #3ee687;
-    position: static;
-    
-}
-
-.section
-{
-    width: 270px;
-    display: flex;
-    margin:50px 70px 70px 70px;
-   
-}
-
-.middle
-{
-    
-    height:350px;
-    display: flex;
-    height:315px;
-    position: static;
-  
-
- background-image: url("LifeofPI.png");
- background-repeat:no-repeat;
- background-size:cover; 
-
-background-position-y:-300px;
-    
-}
-
-.maintxt{
-    position: absolute;
-    color: white;
-    margin-top: 30px;
-    margin-left: 60px;
-    font-size: xx-large;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.png
-{
-   width: 100%;
-   
-}
-
-
-.content, .img
-{
-   padding: 2%;
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
 .title
 {
     display:flex;
@@ -107,10 +48,11 @@ background-position-y:-300px;
     font-size:xx-large;
     color: white;
 }   
-
-
 .head
 {
     padding-left: 10px;
 }
-
+.heart
+{
+    color: #2ac682;
+}
