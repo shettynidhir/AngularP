@@ -7,5 +7,8 @@ import { Component,Input} from '@angular/core';
 })
 export class ProdComponent {
   @Input() product:any;
+  
+  
+
 
 }

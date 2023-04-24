@@ -1,0 +1,21 @@
+.menu-bar{
+    background-color:darkblue !important;
+    color: whitesmoke ! important;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.dropdown
+{
+    margin-left:100px;
+    margin-top:20px;
+}
+.slider
+{
+    margin-left:800px;
+    /* margin-top:10px; */
+    background-color: white !important;
+    width:300px;
+}

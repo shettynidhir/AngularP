@@ -1,0 +1,23 @@
+<mat-toolbar class="menu-bar">
+    <span class="title"> ShopAll</span> 
+    <mat-form-field class="dropdown" appearance="fill">
+        <mat-label>Filter by type</mat-label>
+        <mat-select [(ngModel)]="selected">
+          <mat-option *ngFor="let x of types" [value]="x">
+            {{x}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      
+  </mat-toolbar>
+
+    <!-- <mat-label>Select price range:</mat-label> -->
+  <mat-slider discrete class="slider" min="100" max="500" step="50">
+    <input  [(value)]="minval" matSliderStartThumb>
+    <input  [(value)]="maxval" matSliderEndThumb>
+  </mat-slider>
+ 
+
+<app-prod *ngFor="let x of products | category:selected | rangepipe:minval:maxval"  [product]="x" ></app-prod>
+
