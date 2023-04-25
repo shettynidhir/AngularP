@@ -1,0 +1,20 @@
+.menu-bar{
+    background-color:darkblue !important;
+    color: whitesmoke ! important;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.btn
+{
+   margin-left: 600px;
+   padding: 20px;
+}
+
+.dropdown
+{
+    margin-left:100px;
+    margin-top:20px;
+}

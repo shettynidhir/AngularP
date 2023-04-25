@@ -1,0 +1,19 @@
+
+.slider
+{
+    margin-left:800px;
+    background-color: white !important;
+    width:300px;
+}
+.lbl
+{
+    float:right;
+    margin-right: 100px;
+    font-weight: bold;
+}
+
+.slide
+{
+    display:flex;
+    margin-right: 10px;
+}
