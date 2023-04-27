@@ -1,0 +1,39 @@
+
+
+.price{
+    background-color:darkblue;
+    border-radius: 5px;
+    color:white;
+    width: 80px;
+    height: 30px;
+    margin-left: 150px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.example-card {
+   width: 400px;
+   margin-left: 150px;
+   height:fit-content;
+   margin-top: 50px;
+   margin-right: 200px;
+
+  }
+
+  .carditem
+  {
+    margin: auto;
+     
+  }
+
+  .mainpage
+  {
+    display: flex;
+    padding:5px;
+    margin: 5px;
+   
+  }
+  
+

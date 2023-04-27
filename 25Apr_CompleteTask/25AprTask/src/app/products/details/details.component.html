@@ -1,0 +1,30 @@
+<div class="mainpage">
+    <mat-card class="example-card">
+        <mat-card-header>
+        
+          <mat-card-title class="carditem">{{details.name}}</mat-card-title>
+          <mat-card-subtitle  class="carditem">{{details.type}}</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-lg-image class="carditem" src="http://localhost/{{details.image}}">
+        <mat-card-content>
+            <p>
+              {{details.description}}
+            </p>
+         
+        </mat-card-content>
+        <mat-card-actions>
+            <mat-card-footer class="price">{{details.price | currency:'Rs '}}</mat-card-footer>
+        </mat-card-actions>
+      </mat-card>
+
+
+
+    <app-review-form></app-review-form>
+
+</div>
+
+<div class="disprev">
+  <app-disprev [prdid]="id"></app-disprev>
+</div>
+
+   
