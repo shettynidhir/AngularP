@@ -7,13 +7,19 @@ import { ProdComponent } from './products/prod/prod.component';
 import { MaterialModule } from '../material/material.module';
 import { NutritionvalueComponent } from './nutritionvalue/nutritionvalue.component';
 import { MiniprodComponent } from './nutritionvalue/miniprod/miniprod.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TypefilterPipe } from './typefilter.pipe';
 import { DietplanComponent } from './dietplan/dietplan.component';
 import { DietComponent } from './dietplan/diet/diet.component';
 import { DietdescComponent } from './dietdesc/dietdesc.component';
 import { TypesearchPipe } from './typesearch.pipe';
 import { ConsultexpertComponent } from './consultexpert/consultexpert.component';
+import { MenubarComponent } from './menubar/menubar.component';
+import { QuestionComponent } from './consultexpert/question/question.component';
+import { AnswerComponent } from './consultexpert/answer/answer.component';
+import { PlandietComponent } from './plandiet/plandiet.component';
+import { DispProdComponent } from './plandiet/disp-prod/disp-prod.component';
+
 
 
 
@@ -30,6 +36,13 @@ import { ConsultexpertComponent } from './consultexpert/consultexpert.component'
     DietdescComponent,
     TypesearchPipe,
     ConsultexpertComponent,
+    MenubarComponent,
+    QuestionComponent,
+    AnswerComponent,
+   
+   PlandietComponent,
+       DispProdComponent
+  
     
  
    
@@ -39,6 +52,8 @@ import { ConsultexpertComponent } from './consultexpert/consultexpert.component'
     UsergroupRoutingModule,
     MaterialModule,
     FormsModule,
+    ReactiveFormsModule,
+   
   
 
   ],
@@ -48,7 +63,11 @@ import { ConsultexpertComponent } from './consultexpert/consultexpert.component'
     NutritionvalueComponent,
     MiniprodComponent,
     TypefilterPipe,
-    DietdescComponent
+    DietdescComponent,
+    MenubarComponent,
+    QuestionComponent,
+    AnswerComponent,
+    ConsultexpertComponent
   ]
 })
 export class UsergroupModule { }

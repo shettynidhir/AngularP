@@ -11,7 +11,7 @@ export class TypesearchPipe implements PipeTransform {
     if(type=="")
        return search;
 
-    return search.filter((x:any)=>x.Food== type )
+    return search.filter((x:any)=>x.Food.toUpperCase()== type.toUpperCase() )
   }
 
 }

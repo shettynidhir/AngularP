@@ -10,9 +10,13 @@ import { DietdescComponent } from '../../dietdesc/dietdesc.component';
 })
 export class DietComponent {
 @Input() dietplan:any;
-constructor(public dialog:MatDialog) {}
+constructor(public dialog: MatDialog) {}
 
-openDialog():void{
-  this.dialog.open(DietdescComponent);
-}
+  openDialog() {
+    this.dialog.open(DietdescComponent, {
+      data: {
+        id: this.dietplan.id,
+      },
+    });
+  }
 }

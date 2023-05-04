@@ -29,8 +29,6 @@ types:string[]=[
   "Seeds and Nuts",
   "Drinks,Alcohol, Beverages",
 
-
-
 ]
 
 

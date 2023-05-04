@@ -5,14 +5,16 @@ import { ProductsComponent } from './usergroup/products/products.component';
 import { DietplanComponent } from './usergroup/dietplan/dietplan.component';
 import { DietdescComponent } from './usergroup/dietdesc/dietdesc.component';
 import { ConsultexpertComponent } from './usergroup/consultexpert/consultexpert.component';
+import { MainmenuComponent } from './mainmenu/mainmenu.component';
 
 const routes: Routes = [
-  {path:"",component:ProductsComponent},
-  {path:"nutrition/:id",component:NutritionvalueComponent},
-  {path:"products",component:ProductsComponent},
-  {path:"dietplan",component:DietplanComponent},
-  {path:"dietdesc/:id",component:DietdescComponent},
-  {path:"consultexp",component:ConsultexpertComponent}
+  // 
+
+  {path:"user",
+  loadChildren:() => import('./usergroup/usergroup.module').then(m => m.UsergroupModule)},
+  {path:"admin",loadChildren: 
+  () => import('./admin/admin.module').then(m => m.AdminModule)},
+ 
   
 ];
 

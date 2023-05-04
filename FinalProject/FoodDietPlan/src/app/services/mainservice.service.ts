@@ -1,11 +1,12 @@
 import { Injectable } from '@angular/core';
 import{Observable} from 'rxjs';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
 })
 export class MainserviceService {
+  httpOptions:any;
 
   constructor(private http:HttpClient) { }
   getProducts():Observable<any>
@@ -33,5 +34,47 @@ export class MainserviceService {
   {
     return this.http.get("http://localhost:4500/dietplans/"+id)
   }
+  postQues(obj:any):Observable<any>{
+
+    this.httpOptions =  new HttpHeaders({
+      'Content-Type': 'application/json',
+    })
+
+  return this.http.post("http://localhost:4500/quesans",obj,this.httpOptions);
+ }
+
+ postProduct(obj:any):Observable<any>{
+
+  this.httpOptions =  new HttpHeaders({
+    'Content-Type': 'application/json',
+  })
+
+return this.http.post("http://localhost:4500/foodproducts",obj,this.httpOptions);
+}
+
+
+
+
+postAnswer(obj:any):Observable<any>{
+
+  this.httpOptions =  new HttpHeaders({
+    'Content-Type': 'application/json',
+  })
+
+return this.http.post("http://localhost:4500/answers",obj,this.httpOptions);
+}
+
+getQuestion():Observable<any>
+{
+  return this.http.get("http://localhost:4500/quesans");
+}
+getAnswers():Observable<any>
+{
+  return this.http.get("http://localhost:4500/answers")
+ 
+}
+
 
 }
+
+

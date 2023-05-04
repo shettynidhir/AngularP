@@ -21,3 +21,9 @@
     cursor: pointer;
     
 }
+.footer
+{
+  height:50px;
+  background-color:orange;
+  margin-top: 30px;
+} 
